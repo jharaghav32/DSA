@@ -31,10 +31,10 @@ public:
                     else
                         high--;
                 }
-                while(j+1<n && nums[j]==nums[j+1])j++;
+                while(j+1<n-2 && nums[j]==nums[j+1])j++;
                 
             }
-            while(i+1<n && nums[i]==nums[i+1])i++;  // here we move to j to last same element after
+            while(i+1<n-3 && nums[i]==nums[i+1])i++;  // here we move to j to last same element after
             // that for loop increment the j to next different element
             // 2 2 2 3
             // on doing operation i points to last element 2 because after that 2!=3
