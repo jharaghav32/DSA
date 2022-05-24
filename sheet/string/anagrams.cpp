@@ -5,7 +5,7 @@
 //         for(int i=0;i<strs.size();i++){
 //             string s = strs[i];
 //             sort(s.begin(),s.end());
-//             mp[s].push_back(strs[i]);
+//             mp[s].push_back(strs[i]); // yha pe jitne bhi anagrams banenge unka sort krna ke baad same hi aaayenge
 //         }
 //         for(auto i:mp){
 //             ans.push_back(i.second);
