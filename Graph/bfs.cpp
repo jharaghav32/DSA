@@ -12,6 +12,7 @@ int main()
         adj[x][y]=1;
         adj[y][x]=1;
     }
+    // same as level order traversal 
     int i=1;
     int node;
     q.push(i);
