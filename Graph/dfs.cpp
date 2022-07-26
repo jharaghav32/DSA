@@ -20,7 +20,7 @@ int main(){
 
 for(int i=0;i<m;i++){
      int x,y;
-     cin>>x>>y;
+     cin>>x>>
      adj[x].push_back(y);
      adj[y].push_back(x);
  }
